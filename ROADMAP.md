@@ -2,8 +2,8 @@
 
 ## ✅ Etapa 1 – Setup del Proyecto
 
-- [X] Inicializar monorepo con Turborepo
-- [X] Crear `apps/server` y `apps/client`
+- [x] Inicializar monorepo con Turborepo
+- [x] Crear `apps/server` y `apps/client`
 - [ ] Crear `packages/shared` para tipos comunes
 - [ ] Setup de Git + README base + repo en GitHub
 
@@ -11,8 +11,8 @@
 
 ## ✅ Etapa 2 – Backend: Setup Inicial
 
-- [ ] Setup de `Express` + `Apollo Server`
-- [ ] Setup de `TypeScript`
+- [ ] Setup de `Nest`JS
+- [ ] Crear estructura de carpetas (controllers, services, models, etc.)
 - [ ] Conectar a `MongoDB` con `Mongoose`
 - [ ] Crear `.env` con `MONGO_URI`, `PORT`, etc.
 - [ ] Dockerfile básico para backend
