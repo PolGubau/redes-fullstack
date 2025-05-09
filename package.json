@@ -1,16 +1,18 @@
 {
-  "private": true,
+  "name": "redes-reto",
+  "private": false,
+  "description": "Reto técnico fullstack",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "sort": "npx sort-package-json"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "turbo": "^2.5.3"
   },
-  "packageManager": "pnpm@8.15.6",
-  "name": "with-vite-react"
+  "packageManager": "pnpm@8.15.6"
 }
