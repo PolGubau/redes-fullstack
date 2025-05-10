@@ -6,7 +6,7 @@ COPY package*.json ./
 COPY pnpm-lock.yaml ./
 
 RUN corepack enable && corepack prepare pnpm@latest --activate
-RUN pnpm install
+RUN pnpm install --frozen-lockfile
 
 
 COPY . .
@@ -31,4 +31,4 @@ COPY . .
 
 COPY --from=development /usr/src/app/dist ./dist
 
-CMD ["node", "dist/main"]
+CMD ["node", "dist/apps/orders/main"]
